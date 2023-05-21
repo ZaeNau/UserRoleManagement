@@ -1,0 +1,35 @@
+2023-05-21 17:42:26,816 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-21 17:42:26,816 - INFO - [33mPress CTRL+C to quit[0m
+2023-05-21 17:42:26,818 - INFO -  * Restarting with stat
+2023-05-21 17:42:27,114 - WARNING -  * Debugger is active!
+2023-05-21 17:42:27,116 - INFO -  * Debugger PIN: 943-858-821
+2023-05-21 17:42:34,414 - INFO - 127.0.0.1 - - [21/May/2023 17:42:34] "GET / HTTP/1.1" 200 -
+2023-05-21 17:44:26,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-21 17:44:26,011 - INFO - [33mPress CTRL+C to quit[0m
+2023-05-21 17:44:26,013 - INFO -  * Restarting with stat
+2023-05-21 17:44:26,905 - WARNING -  * Debugger is active!
+2023-05-21 17:44:26,910 - INFO -  * Debugger PIN: 943-858-821
+2023-05-21 17:44:28,986 - INFO - 127.0.0.1 - - [21/May/2023 17:44:28] "GET / HTTP/1.1" 200 -
+2023-05-21 17:44:55,452 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-21 17:44:55,453 - INFO - [33mPress CTRL+C to quit[0m
+2023-05-21 17:44:55,455 - INFO -  * Restarting with stat
+2023-05-21 17:44:56,303 - WARNING -  * Debugger is active!
+2023-05-21 17:44:56,307 - INFO -  * Debugger PIN: 943-858-821
+2023-05-21 17:44:56,765 - INFO - 127.0.0.1 - - [21/May/2023 17:44:56] "GET / HTTP/1.1" 200 -
+2023-05-21 17:46:05,610 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-21 17:46:05,611 - INFO - [33mPress CTRL+C to quit[0m
+2023-05-21 17:46:05,613 - INFO -  * Restarting with stat
+2023-05-21 17:46:06,501 - WARNING -  * Debugger is active!
+2023-05-21 17:46:06,505 - INFO -  * Debugger PIN: 943-858-821
+2023-05-21 17:46:07,681 - INFO - 127.0.0.1 - - [21/May/2023 17:46:07] "GET / HTTP/1.1" 200 -
+2023-05-21 17:46:39,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-21 17:46:39,515 - INFO - [33mPress CTRL+C to quit[0m
+2023-05-21 17:46:39,518 - INFO -  * Restarting with stat
+2023-05-21 17:46:40,427 - WARNING -  * Debugger is active!
+2023-05-21 17:46:40,434 - INFO -  * Debugger PIN: 943-858-821
+2023-05-21 17:46:49,741 - INFO - 127.0.0.1 - - [21/May/2023 17:46:49] "GET /create-role HTTP/1.1" 200 -
