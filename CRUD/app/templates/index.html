@@ -2,16 +2,78 @@
 <html lang="id">
 <head>
   <title>User Role Management</title>
+  <style>
+  .btn-group button{
+    background-color: #04AA6D;
+    border: 1px solid green;
+    color: white; 
+    padding: 10px 24px;
+    cursor: pointer;
+    float: inline-end;
+  }
+  .btn-group button:not(:last-child) {
+    border-right: none;
+  }
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+    .form-group input[item=item_name]
+    .form-group select {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+  </style>
 </head>
 <body>
   <h1>User Role Management</h1>
   <ul>
-    <li><a href="/create-user">Create User</a></li>
-    <li><a href="/update-user">Update User</a></li>
-    <li><a href="/delete-user">Delete User</a></li>
-    <li><a href="/create-role">Create Role</a></li>
-    <li><a href="/update-role">Update Role</a></li>
-    <li><a href="/delete-role">Delete Role</a></li>
+  <hrefs>
+    <div class="btn-group" style="width: auto;">
+    <li><a href="/create-user">
+      <button style="width:33.3%">Create User</button></l1></a>
+    <li><a href="/update-user">
+      <button style="width:33.3%">Update User</button></l1></a>
+    <li><a href="/delete-user">
+      <button style="width:33.3%">Delete User</button></l1></a>
+    <li><a href="/create-role">
+      <button style="width:33.3%">Create Role</button></l1></a>
+    <li><a href="/update-role">
+      <button style="width:33.3%">Update Role</button></l1></a>
+    <li><a href="/delete-role">
+      <button style="width:33.3%">Delete Role</button></l1></a>
+
+  <div class="container">
+    <h2>CRUD INFORMATION</h2>
+    <form>
+      <div class="form-group">
+        <label for="username">Username:</label>
+      </div>
+      <div class="form-group">
+        <label for="role">Role:</label>
+  </div>
   </ul>
 </body>
 </html>
