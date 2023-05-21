@@ -1,66 +1,17 @@
 <!DOCTYPE html>
-<html lang ="id">
+<html>
 <head>
   <title>User Role Management</title>
-  <style>
-    /* Tambahkan gaya CSS sesuai kebutuhan */
-    .container {
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    .table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 10px;
-    }
-    
-    .table th,
-    .table td {
-      padding: 8px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    
-    .btn {
-      display: inline-block;
-      padding: 5px 10px;
-      font-size: 14px;
-      border-radius: 5px;
-      background-color: #4CAF50;
-      color: #fff;
-      text-decoration: none;
-    }
-  </style>
 </head>
 <body>
-  <div class="container">
-    <h2>User Role Management</h2>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Username</th>
-          <th>Role</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for user in users %}
-        <tr>
-          <td>{{ user.id }}</td>
-          <td>{{ user.username }}</td>
-          <td>{{ user.role }}</td>
-          <td>
-            <a href="/edit/{{ user.id }}" class="btn">Edit</a>
-            <a href="/delete/{{ user.id }}" class="btn">Delete</a>
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    <a href="/add" class="btn">Add User</a>
-  </div>
+  <h1>User Role Management</h1>
+  <ul>
+    <li><a href="/create-user">Create User</a></li>
+    <li><a href="/update-user">Update User</a></li>
+    <li><a href="/delete-user">Delete User</a></li>
+    <li><a href="/create-role">Create Role</a></li>
+    <li><a href="/update-role">Update Role</a></li>
+    <li><a href="/delete-role">Delete Role</a></li>
+  </ul>
 </body>
 </html>
